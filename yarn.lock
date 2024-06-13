@@ -954,13 +954,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/exec-program@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@hyperse/exec-program@npm:1.0.5"
+"@hyperse/exec-program@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@hyperse/exec-program@npm:1.0.6"
   dependencies:
     "@hyperse/ts-node-paths": "npm:^1.0.8"
     execa: "npm:^9.2.0"
-  checksum: 10/694edacba70907cca8300d8375db90802f9b07f915922675d08f322cb6c214bcfd8c2891708c6d94280d4b7ec3476b58a5ea744f38c59949411dc3995cc23f25
+  checksum: 10/3191c18655adec877aea19445280cad1069ee75a407b359f96997a30827cc55c8b3724c61ea643182dfe7301390c1c921bb802813a5b4712b6a43a35bd10a33a
   languageName: node
   linkType: hard
 
@@ -973,7 +973,7 @@ __metadata:
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
     "@hyperse/eslint-config-hyperse": "npm:^1.0.7"
-    "@hyperse/exec-program": "npm:^1.0.5"
+    "@hyperse/exec-program": "npm:^1.0.6"
     "@types/lodash.flatmap": "npm:^4.5.9"
     "@types/node": "npm:^20.14.2"
     "@types/uniqid": "npm:^5.3.4"
