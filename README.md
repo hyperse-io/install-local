@@ -11,7 +11,7 @@
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hyperse-io/install-local?style=flat-square&labelColor=000&color=blue">
   </a>
   <a aria-label="Licence" href="https://github.com/hyperse-io/install-local/blob/main/LICENSE">
-    <img alt="Licence" src="https://img.shields.io/github/license/hyperse-io/ts-node-paths?style=flat-quare&labelColor=000000" />
+    <img alt="Licence" src="https://img.shields.io/github/license/hyperse-io/install-local?style=flat-quare&labelColor=000000" />
   </a>
 </p>
 

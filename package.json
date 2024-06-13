@@ -58,7 +58,7 @@
     "@changesets/cli": "2.27.5",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@hyperse/eslint-config-hyperse": "^1.0.7",
+    "@hyperse/eslint-config-hyperse": "^1.0.8",
     "@types/lodash.flatmap": "^4.5.9",
     "@types/node": "^20.14.2",
     "@types/uniqid": "^5.3.4",

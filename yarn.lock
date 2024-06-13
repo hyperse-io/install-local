@@ -924,12 +924,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/eslint-config-hyperse@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "@hyperse/eslint-config-hyperse@npm:1.0.7"
+"@hyperse/eslint-config-hyperse@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@hyperse/eslint-config-hyperse@npm:1.0.8"
   dependencies:
     "@eslint/js": "npm:^9.4.0"
-    "@next/eslint-plugin-next": "npm:^14.2.3"
+    "@next/eslint-plugin-next": "npm:^14.2.4"
     app-root-path: "npm:^3.1.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-define-config: "npm:^2.1.0"
@@ -940,17 +940,17 @@ __metadata:
     eslint-plugin-regexp: "npm:^2.6.0"
     eslint-plugin-simple-import-sort: "npm:^12.1.0"
     eslint-plugin-sonarjs: "npm:^1.0.3"
-    eslint-plugin-tailwindcss: "npm:^3.17.0"
+    eslint-plugin-tailwindcss: "npm:^3.17.3"
     eslint-plugin-vitest: "npm:^0.5.4"
     get-tsconfig: "npm:^4.7.5"
-    globals: "npm:^15.3.0"
-    prettier: "npm:^3.3.1"
-    tailwindcss: "npm:^3.4.3"
+    globals: "npm:^15.4.0"
+    prettier: "npm:^3.3.2"
+    tailwindcss: "npm:^3.4.4"
     typescript-eslint: "npm:^8.0.0-alpha.27"
   peerDependencies:
-    eslint: ^9.3.0
+    eslint: ">=9.3.0"
     typescript: ^5.4.3
-  checksum: 10/2f2e5192fe30feffb22abbeb3dbf1c0675ac6416aa10c40c77f37770432e890d951f9a3c929766d53ea5b88b3db3b07ba6f4d0db947e4211bc5f787dcfc0317c
+  checksum: 10/0bb225c7a1727fed4d3652cd94263e75d28b1ca47b8a82e8877526ed53dbfa2fe3d1389a4fa9f26e9aa39e0631d1a1c042a8d458edb40469ea94a5fe4a5d1ac2
   languageName: node
   linkType: hard
 
@@ -972,7 +972,7 @@ __metadata:
     "@changesets/cli": "npm:2.27.5"
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
-    "@hyperse/eslint-config-hyperse": "npm:^1.0.7"
+    "@hyperse/eslint-config-hyperse": "npm:^1.0.8"
     "@hyperse/exec-program": "npm:^1.0.6"
     "@types/lodash.flatmap": "npm:^4.5.9"
     "@types/node": "npm:^20.14.2"
@@ -1109,12 +1109,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^14.2.3":
-  version: 14.2.3
-  resolution: "@next/eslint-plugin-next@npm:14.2.3"
+"@next/eslint-plugin-next@npm:^14.2.4":
+  version: 14.2.4
+  resolution: "@next/eslint-plugin-next@npm:14.2.4"
   dependencies:
     glob: "npm:10.3.10"
-  checksum: 10/f462941b651cc570635d0098e9a66db7b8c8e18a585c399f4457dccba458b481618388881abc10f2f12d806f060e55e19159a82f3a19e15b5d094ee5cd2ff226
+  checksum: 10/44c94d13aea1937d202324ec66a902c473e6c5eafd3033049f95a43510255c8871084e5532d4c0211faf7ffc8c8027109b40a26ee164f0cf169cac28abe27097
   languageName: node
   linkType: hard
 
@@ -3628,15 +3628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-tailwindcss@npm:^3.17.0":
-  version: 3.17.0
-  resolution: "eslint-plugin-tailwindcss@npm:3.17.0"
+"eslint-plugin-tailwindcss@npm:^3.17.3":
+  version: 3.17.3
+  resolution: "eslint-plugin-tailwindcss@npm:3.17.3"
   dependencies:
     fast-glob: "npm:^3.2.5"
     postcss: "npm:^8.4.4"
   peerDependencies:
     tailwindcss: ^3.4.0
-  checksum: 10/ea1e499d1953d07521270d8aa6c6cae3ee878080963d0959dd6775036a23e016d9bb41260e5c668e0877dacc69268b7118427db732bf955f0df971a1e21d1db4
+  checksum: 10/8cb73182cab097e5ced3980bc449bc6c8235f9aa3aea6a9ff58c1a2de715778c05577b2278ddf759bf5ba43fa1c418613a02a2b8b769943fa27e02f8a8dc4895
   languageName: node
   linkType: hard
 
@@ -4413,7 +4413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^15.3.0":
+"globals@npm:^15.4.0":
   version: 15.4.0
   resolution: "globals@npm:15.4.0"
   checksum: 10/886e687466ceee48fe61f1a6c69fb714e79a84b9e11953baa355b94da0d72caf0e8186d64dcf1299d27ef5f231029baadd197593323ccc6617d487216e561c9b
@@ -7358,7 +7358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.3.1":
+"prettier@npm:^3.3.2":
   version: 3.3.2
   resolution: "prettier@npm:3.3.2"
   bin:
@@ -8537,9 +8537,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.4.3":
-  version: 3.4.3
-  resolution: "tailwindcss@npm:3.4.3"
+"tailwindcss@npm:^3.4.4":
+  version: 3.4.4
+  resolution: "tailwindcss@npm:3.4.4"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
     arg: "npm:^5.0.2"
@@ -8566,7 +8566,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 10/8d65347bcab1b492fe3acb95a917d8610112c1efb01a91259368c6360e98a5622bfd37bce96fc7ce70268c9d25d42674a7a475074e079781573a1eae8559bb9f
+  checksum: 10/ab120014a68517c079fbeecba06c404ac94088a959b5b5e631214af4d87b332b6e4b28d8453f65eac9d94759a030ca581b1330f7d73cbf497883c4e2de083432
   languageName: node
   linkType: hard
 
