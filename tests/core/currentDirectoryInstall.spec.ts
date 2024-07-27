@@ -1,22 +1,22 @@
-import type { WriteStream } from 'tty';
 import { Mock } from 'vitest';
 import { MockInstance } from 'vitest';
 import { currentDirectoryInstall } from '../../src/currentDirectoryInstall.js';
 import * as helpers from '../../src/helpers.js';
-import { InstallTarget, Options, PackageJson } from '../../src/index.js';
+import { InstallTarget, PackageJson, saveIfNeeded } from '../../src/index.js';
 import * as localInstallerModule from '../../src/LocalInstaller.js';
 import * as progressModule from '../../src/progress.js';
 import * as saveModule from '../../src/save.js';
 import { options, packageJson } from '../helpers/producers.js';
 
 describe('currentDirectoryInstall', () => {
-  let localInstallerStub: { install: Mock<any, InstallTarget[]>; on: Mock };
-  let saveIfNeededStub: MockInstance<[InstallTarget[], Options], Promise<void>>;
-  let readPackageJsonStub: MockInstance<[string], Promise<PackageJson>>;
-  let progressStub: MockInstance<
-    [localInstallerModule.LocalInstaller, WriteStream?],
-    void
-  >;
+  let localInstallerStub: {
+    install: Mock<() => Promise<InstallTarget[]>>;
+    on: Mock;
+  };
+
+  let saveIfNeededStub: MockInstance<typeof saveIfNeeded>;
+  let readPackageJsonStub: MockInstance<(from: string) => Promise<PackageJson>>;
+  let progressStub: MockInstance<typeof progressModule.progress>;
   beforeEach(() => {
     localInstallerStub = { install: vi.fn(), on: vi.fn() };
     // LocalInstaller is a class, so we need to mock the constructor, use `MockReturnValue` to mock the return value

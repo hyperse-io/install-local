@@ -9,14 +9,13 @@ describe('cli', () => {
     dependencies: string[];
     save: boolean;
     targetSiblings: boolean;
-    validate: Mock<any, Promise<void>>;
+    validate: Mock<() => Promise<void>>;
   };
 
   let currentDirectoryInstallStub: MockInstance<
-    [optionsModule.Options],
-    Promise<void>
+    (option: optionsModule.Options) => Promise<void>
   >;
-  let siblingInstallStub: MockInstance<[], Promise<void>>;
+  let siblingInstallStub: MockInstance<() => Promise<void>>;
 
   beforeEach(() => {
     optionsMock = {

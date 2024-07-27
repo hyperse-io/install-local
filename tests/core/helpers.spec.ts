@@ -4,7 +4,7 @@ import { MockInstance } from 'vitest';
 import { readPackageJson } from '../../src/helpers.js';
 
 describe('Helpers', () => {
-  let readFileStub: MockInstance<any, Promise<string | Buffer>>;
+  let readFileStub: MockInstance<typeof fs.readFile>;
 
   beforeEach(() => {
     readFileStub = vi.spyOn(fs, 'readFile');
