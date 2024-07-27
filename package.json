@@ -1,6 +1,6 @@
 {
   "name": "@hyperse/install-local",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Installs npm/yarn packages locally without symlink.",
   "keywords": [
     "hyperse",
