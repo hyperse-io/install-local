@@ -8,9 +8,12 @@ import * as progressModule from '../../src/progress.js';
 import { siblingInstall } from '../../src/siblingInstall.js';
 
 describe('siblingInstall', () => {
-  let readdirStub: MockInstance<any, Promise<string[]>>;
-  let readPackageJson: MockInstance<[string], Promise<PackageJson>>;
-  let localInstallerStub: { install: Mock<any, InstallTarget[]>; on: Mock };
+  let readdirStub: MockInstance<() => Promise<string[]>>;
+  let readPackageJson: MockInstance<(from: string) => Promise<PackageJson>>;
+  let localInstallerStub: {
+    install: Mock<() => Promise<InstallTarget[]>>;
+    on: Mock;
+  };
 
   beforeEach(() => {
     localInstallerStub = { install: vi.fn(), on: vi.fn() };

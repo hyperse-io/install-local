@@ -2,7 +2,7 @@ import os from 'os';
 import path from 'path';
 import { rimraf } from 'rimraf';
 import uniqid from 'uniqid';
-import { exec, type ExecOptions } from '@hyperse/exec-program';
+import { type ExecOptions, execute } from '@hyperse/exec-program';
 
 export function del(filename: string) {
   return rimraf(filename);
@@ -21,5 +21,5 @@ export function execa<T extends ExecOptions>(
   args?: readonly string[] | undefined,
   options?: T | undefined
 ) {
-  return exec(file, args, options);
+  return execute(file, args, options);
 }

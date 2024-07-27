@@ -6,7 +6,7 @@ import { Options } from '../../src/Options.js';
 import { saveIfNeeded } from '../../src/save.js';
 
 describe('saveIfNeeded', () => {
-  let writeFileStub: MockInstance<any, Promise<void>>;
+  let writeFileStub: MockInstance<() => Promise<void>>;
 
   let input: InstallTarget[];
 

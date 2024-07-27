@@ -4,18 +4,10 @@
     "baseUrl": "./",
     "rootDir": "./",
     "outDir": "dist",
-    "types": [
-      "vitest/globals"
-    ],
+    "types": ["vitest/globals"],
     "paths": {
-      "@hyperse/install-local": [
-        "./src/index.js"
-      ],
+      "@hyperse/install-local": ["./src/index.js"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
