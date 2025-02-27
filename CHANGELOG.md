@@ -1,5 +1,11 @@
 # @hyperse/install-local"
 
+## 1.0.3
+
+### Patch Changes
+
+- [`0dcc337`](https://github.com/hyperse-io/install-local/commit/0dcc3373dc1a44b89ac9011a70d747687de7f0f3) Thanks [@tianyingchun](https://github.com/tianyingchun)! - bump version
+
 ## 1.0.2
 
 ### Patch Changes
