@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { Mock, MockInstance } from 'vitest';
+import type { Mock, MockInstance } from 'vitest';
 import * as helpers from '../../src/helpers.js';
-import { InstallTarget, PackageJson } from '../../src/index.js';
+import type { InstallTarget, PackageJson } from '../../src/index.js';
 import * as localInstallerModule from '../../src/LocalInstaller.js';
 import * as progressModule from '../../src/progress.js';
 import { siblingInstall } from '../../src/siblingInstall.js';
@@ -72,6 +72,7 @@ describe('siblingInstall', () => {
           })
         );
       }
+      return;
     }) as any);
 
     localInstallerStub.install.mockResolvedValue([]);

@@ -1,7 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { readPackageJson } from './helpers.js';
-import { ListByPackage, LocalInstaller, Package, progress } from './index.js';
+import type { ListByPackage, Package } from './index.js';
+import { LocalInstaller, progress } from './index.js';
 
 function filterTruthy(values: Array<Package | null>): Package[] {
   return values.filter((v) => v) as Package[];

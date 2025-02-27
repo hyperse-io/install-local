@@ -1,5 +1,5 @@
 import os from 'os';
-import { WriteStream } from 'tty';
+import type { WriteStream } from 'tty';
 import { LocalInstaller } from '../../src/LocalInstaller.js';
 import { progress } from '../../src/progress.js';
 

@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { Dependencies, InstallTarget, Options, Package } from './index.js';
+import type { Dependencies, InstallTarget, Options, Package } from './index.js';
 
 export async function saveIfNeeded(
   targets: InstallTarget[],

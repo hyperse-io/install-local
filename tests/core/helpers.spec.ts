@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { MockInstance } from 'vitest';
+import type { MockInstance } from 'vitest';
 import { readPackageJson } from '../../src/helpers.js';
 
 describe('Helpers', () => {

@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { MockInstance } from 'vitest';
-import { InstallTarget } from '../../src/index.js';
+import type { MockInstance } from 'vitest';
+import type { InstallTarget } from '../../src/index.js';
 import { Options } from '../../src/Options.js';
 import { saveIfNeeded } from '../../src/save.js';
 

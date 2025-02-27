@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import flatMap from 'lodash.flatmap';
 import path from 'path';
 import { readPackageJson } from './helpers.js';
-import { InstallTarget, PackageJson } from './index.js';
+import type { InstallTarget, PackageJson } from './types.js';
 import { del, execa, getRandomTmpDir } from './utils.js';
 
 interface PackageByDirectory {

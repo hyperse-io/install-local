@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { PackageJson } from './index.js';
+import type { PackageJson } from './index.js';
 
 export async function readPackageJson(from: string): Promise<PackageJson> {
   const content = await fs.readFile(path.join(from, 'package.json'), 'utf8');

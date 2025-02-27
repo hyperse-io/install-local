@@ -4,8 +4,8 @@ import { promises as fs } from 'fs';
 import os from 'os';
 import path from 'path';
 import { rimraf } from 'rimraf';
-import { Package } from '../../src/index.js';
-import { PackageJson } from '../../src/index.js';
+import type { Package } from '../../src/index.js';
+import type { PackageJson } from '../../src/index.js';
 
 const installLocal = path.resolve('bin', 'install-local');
 

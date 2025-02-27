@@ -1,6 +1,6 @@
 import { readPackageJson } from './helpers.js';
 import { LocalInstaller, progress, saveIfNeeded } from './index.js';
-import { Options } from './Options.js';
+import type { Options } from './Options.js';
 
 export async function currentDirectoryInstall(options: Options): Promise<void> {
   const localDependencies = await readLocalDependencies(options.dependencies);

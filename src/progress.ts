@@ -1,7 +1,7 @@
 import os from 'os';
 import path from 'path';
 import type { WriteStream } from 'tty';
-import { LocalInstaller } from './LocalInstaller.js';
+import type { LocalInstaller } from './LocalInstaller.js';
 
 class ProgressKeeper {
   private current = -1;

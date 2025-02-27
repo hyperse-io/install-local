@@ -1,8 +1,12 @@
-import { Mock } from 'vitest';
-import { MockInstance } from 'vitest';
+import type { Mock } from 'vitest';
+import type { MockInstance } from 'vitest';
 import { currentDirectoryInstall } from '../../src/currentDirectoryInstall.js';
 import * as helpers from '../../src/helpers.js';
-import { InstallTarget, PackageJson, saveIfNeeded } from '../../src/index.js';
+import type {
+  InstallTarget,
+  PackageJson,
+  saveIfNeeded,
+} from '../../src/index.js';
 import * as localInstallerModule from '../../src/LocalInstaller.js';
 import * as progressModule from '../../src/progress.js';
 import * as saveModule from '../../src/save.js';

@@ -1,4 +1,4 @@
-import { Mock, MockInstance } from 'vitest';
+import type { Mock, MockInstance } from 'vitest';
 import { cli } from '../../src/cli.js';
 import * as currentDirectoryInstallModule from '../../src/currentDirectoryInstall.js';
 import * as optionsModule from '../../src/Options.js';
